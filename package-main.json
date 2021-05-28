@@ -1,0 +1,36 @@
+{
+    "name": "react-native-redux-typescript-template",
+    "version": "0.1.0",
+    "description": "A template for using redux with react-native application",
+    "main": "index.ts",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/uit2712/react-native-redux-typescript-template.git"
+    },
+    "keywords": [
+      "react native redux template"
+    ],
+    "author": "uit2712",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/uit2712/react-native-redux-typescript-template/issues"
+    },
+    "homepage": "https://github.com/uit2712/react-native-redux-typescript-template#readme",
+    "dependencies": {
+      "react": "^17.0.1",
+      "react-native": "^0.64.1",
+      "react-redux": "^7.2.4",
+      "redux": "^4.1.0",
+      "redux-thunk": "^2.3.0",
+      "typescript": "^4.3.2"
+    },
+    "devDependencies": {
+      "@types/react": "^17.0.8",
+      "@types/react-native": "^0.64.7",
+      "@types/react-redux": "^7.1.16"
+    }
+  }
+  
