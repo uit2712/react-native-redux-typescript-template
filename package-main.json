@@ -1,6 +1,6 @@
 {
     "name": "react-native-redux-typescript-template",
-    "version": "0.1.0",
+    "version": "0.1.3",
     "description": "A template for using redux with react-native application",
     "main": "index.ts",
     "scripts": {

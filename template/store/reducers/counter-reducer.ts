@@ -11,12 +11,12 @@ export default function CounterReducer(state = initializeState, action: Action) 
         case INCREMENT_ACTION:
             return {
                 ...state,
-                count: state.count + (action as IAction<number>).payload,
+                count: state.count + Number((action as IAction<number>).payload),
             }
         case DECREMENT_ACTION:
             return {
                 ...state,
-                count: state.count - (action as IAction<number>).payload,
+                count: state.count - Number((action as IAction<number>).payload),
             }
         default: return state;
     }
