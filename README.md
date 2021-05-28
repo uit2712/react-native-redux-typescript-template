@@ -1,7 +1,7 @@
 # React native redux template with typescript
 # Installation
 ```
-npm i -D react-native-redux-template
+npm i -D react-native-redux-typescript-template
 ```
 # Usage
 - Copy all files and folders in folder __template__ to your app's root folder.
