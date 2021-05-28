@@ -1,11 +1,12 @@
 {
   "name": "react-native-redux-typescript-template",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A template for using redux in react-native application using typescript",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "npm publish --access=public"
+    "publish": "npm publish --access=public",
+    "install-all": "npm i --save react-redux redux redux-thunk & npm i -D @types/react-redux"
   },
   "repository": {
     "type": "git",
